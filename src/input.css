@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.primary {
+color: #FF6363;
+} 
+
+.secondary-200 {
+color: #888883;
+}  
+
+.secondary-100 {
+color: #E2E2D5;
+}  
+
+.card {
+@apply bg-white rounded overflow-hidden shadow-md; 
+}
+
+.badge {
+@apply text-xs uppercase p-2 rounded-full bg-secondary-100 font-bold text-secondary-200 absolute top-64 ml-2 mt-4;
+}
+
+.btn{
+@apply text-sm rounded-full px-3 py-2 uppercase font-bold cursor-pointer tracking-wider;
+}
